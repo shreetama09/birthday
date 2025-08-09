@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Happy Birthday Face Detector</title>
+  <script defer src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
+  <script defer src="script.js"></script>
+  <style>
+    body {
+      background: #fef6ff;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 2rem;
+    }
+    video {
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+    }
+    #message {
+      font-size: 32px;
+      color: #ff1493;
+      margin-top: 20px;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎂 Happy Birthday Face Detector 🎉</h1>
+  <video id="video" width="640" height="480" autoplay muted></video>
+  <div id="message">🎈 Happy Birthday! 🎂</div>
+</body>
+</html>
